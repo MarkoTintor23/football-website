@@ -1,0 +1,33 @@
+{
+  "name": "football",
+  "version": "1.0.0",
+  "description": "football website",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "proxy": {
+    "/v4": {
+      "target": "https://api.football-data.org",
+      "changeOrigin": true,
+      "secure": false
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkoTintor23/football-website.git"
+  },
+  "author": "Marko Tintor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkoTintor23/football-website/issues"
+  },
+  "homepage": "https://github.com/MarkoTintor23/football-website#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.1",
+    "parcel": "^2.14.1"
+  },
+  "dependencies": {
+    "sass": "^1.86.0"
+  }
+}

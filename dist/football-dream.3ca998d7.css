@@ -1,0 +1,120 @@
+body {
+  color: #333;
+  background-color: #f4f4f4;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+header {
+  color: #fff;
+  background-color: #1a237e;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  display: flex;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  gap: 10px;
+  display: flex;
+}
+
+button {
+  color: #1a237e;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: all .3s;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #3949ab;
+}
+
+main {
+  flex: 1;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.sidebar {
+  background: #fff;
+  border-radius: 10px;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.sidebar h3 {
+  color: #1a237e;
+  border-bottom: 2px solid #1a237e;
+  padding-bottom: 5px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  cursor: pointer;
+  padding: 8px 0;
+  transition: all .3s;
+}
+
+ul li:hover {
+  color: #3949ab;
+}
+
+.content-area {
+  background: #fff;
+  border-radius: 10px;
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+h2 {
+  color: #1a237e;
+  border-bottom: 2px solid #1a237e;
+  padding-bottom: 5px;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  background-color: #1a237e;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+footer a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+/*# sourceMappingURL=football-dream.3ca998d7.css.map */

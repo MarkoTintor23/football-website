@@ -1,60 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="/js/controller.js"></script>
     <title>Football Hub</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./sass/style.scss">
+    <link rel="shortcut icon" href ="img/logo.jpeg" type="image/x-icon">
+</head>
+<body>
     <header>
-      <h1>Football Hub</h1>
-      <nav>
-        <button id="liveScoresBtn">Live Scores</button>
-        <button id="standingsBtn">League Standings</button>
-        <button id="topScorersBtn">Top Scorers</button>
-        <button id="fixturesBtn">Upcoming Fixtures</button>
-        <button id="teamsBtn">Teams & Players</button>
-        <button id="favoritesBtn">My Favorite Teams</button>
-      </nav>
+        <div class="logo">Football Hub</div>
+       
+        <nav>
+            <button id="liveScoresBtn">Live Scores</button>
+            <button id="standingsBtn">Standings</button>
+            <button id="topScorersBtn">Top Scorers</button>
+            <button id="fixturesBtn">Fixtures</button>
+            <button id="teamsBtn">Teams</button>
+            <button id="favoritesBtn">Favorites</button>
+        </nav>
     </header>
 
     <main>
-      <section id="liveScores" class="content">
-        <h2>Live Scores & Match Results</h2>
-        <div id="matches"></div>
-      </section>
-
-      <section id="standings" class="content">
-        <h2>League Standings</h2>
-        <div id="leagueTable"></div>
-      </section>
-
-      <section id="topScorers" class="content">
-        <h2>Top Scorers</h2>
-        <div id="scorers"></div>
-      </section>
-
-      <section id="fixtures" class="content">
-        <h2>Upcoming Fixtures</h2>
-        <div id="fixturesList"></div>
-      </section>
-
-      <section id="teams" class="content">
-        <h2>Search Teams & Players</h2>
-        <input type="text" id="teamSearch" placeholder="Enter team name..." />
-        <button id="searchTeamBtn">Search</button>
-        <div id="teamDetails"></div>
-      </section>
-
-      <section id="favorites" class="content">
-        <h2>My Favorite Teams</h2>
-        <div id="favoriteTeams"></div>
-      </section>
+        <aside class="sidebar">
+            <h3>Leagues</h3>
+            <ul id="leaguesList"></ul>
+        </aside>
+        <section class="content-area">
+            
+        </section>
     </main>
 
     <footer>
-      <p>Project by Marko Tintor</p>
+        <p>Made by Marko Tintor</a></p>
     </footer>
-  </body>
+</body>
 </html>
