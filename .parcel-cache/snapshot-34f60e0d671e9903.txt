@@ -44,7 +44,7 @@
 107C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\transformer-json\lib\JSONTransformer.js133871385952016062 0
 109C:\Users\Marko\Desktop\projekti\football-dream\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Doxyfile133871385941779927 0
 91C:\Users\Marko\Desktop\projekti\football-dream\node_modules\caniuse-lite\data\regions\IT.js133871385952082480 0
-51C:\Users\Marko\Desktop\projekti\football-dream\dist133871451085276019 1
+51C:\Users\Marko\Desktop\projekti\football-dream\dist133873185880560784 1
 72C:\Users\Marko\Desktop\projekti\football-dream\node_modules\argparse\lib133871385941335943 1
 82C:\Users\Marko\Desktop\projekti\football-dream\node_modules\parent-module\index.js133871385940581608 0
 103C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\reporter-cli\lib\CLIReporter.js.map133871385968589118 0
@@ -1057,7 +1057,7 @@
 104C:\Users\Marko\Desktop\projekti\football-dream\node_modules\posthtml\node_modules\entities\lib\decode.js133871385941510846 0
 72C:\Users\Marko\Desktop\projekti\football-dream\node_modules\readdirp\esm133871387392873714 1
 93C:\Users\Marko\Desktop\projekti\football-dream\node_modules\semver\functions\compare-build.js133871385941558399 0
-82C:\Users\Marko\Desktop\projekti\football-dream\dist\football-dream.e438c7cc.js.map133871451085166020 0
+82C:\Users\Marko\Desktop\projekti\football-dream\dist\football-dream.e438c7cc.js.map133873185880560784 0
 93C:\Users\Marko\Desktop\projekti\football-dream\node_modules\semver\functions\compare-loose.js133871385941689052 0
 87C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\watcher\src\windows133871385943168479 1
 91C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\source-map\dist\node.js133871385941950732 0
@@ -3845,7 +3845,7 @@
 88C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\transformer-sass\src133871389261721586 1
 96C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\transformer-raw\package.json133871385951241024 0
 107C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\transformer-sass\src\SassTransformer.js133871389261721586 0
-78C:\Users\Marko\Desktop\projekti\football-dream\dist\football-dream.e438c7cc.js133871451085146014 0
+78C:\Users\Marko\Desktop\projekti\football-dream\dist\football-dream.e438c7cc.js133873185880530749 0
 98C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\transformer-sass\lib\legacy.js133871389261681591 0
 120C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\core\test\fixtures\main-format-mismatch\package.json133871385971355973 0
 98C:\Users\Marko\Desktop\projekti\football-dream\node_modules\@parcel\transformer-sass\lib\modern.js133871389261701576 0
@@ -4362,7 +4362,7 @@
 75C:\Users\Marko\Desktop\projekti\football-dream\node_modules\.bin\semver.ps1133871385984883263 0
 87C:\Users\Marko\Desktop\projekti\football-dream\node_modules\.bin\update-browserslist-db133871385984877291 0
 91C:\Users\Marko\Desktop\projekti\football-dream\node_modules\.bin\update-browserslist-db.ps1133871385984877291 0
-63C:\Users\Marko\Desktop\projekti\football-dream\js\controller.js133871451082797249 0
+63C:\Users\Marko\Desktop\projekti\football-dream\js\controller.js133873185880252307 0
 60C:\Users\Marko\Desktop\projekti\football-dream\img\logo.jpeg133871392530092950 0
 82C:\Users\Marko\Desktop\projekti\football-dream\dist\football-dream.3464ddca.js.map133871393724937861 0
 79C:\Users\Marko\Desktop\projekti\football-dream\dist\football-dream.3a01df49.css133871386435552362 0
