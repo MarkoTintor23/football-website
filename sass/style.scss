@@ -58,7 +58,7 @@ main {
 
 /* Sidebar */
 .sidebar {
-  width: 250px;
+  width: 550px;
   background: white;
   padding: 15px;
   border-radius: 10px;
@@ -122,4 +122,7 @@ footer a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+.team__img {
+  width: 100%;
 }
