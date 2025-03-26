@@ -662,10 +662,10 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"cCMpN":[function(require,module,exports,__globalThis) {
-const sideContainer = document.querySelector(".sidebar");
+const sideContainer = document.querySelector(".content-area");
 const showTeam = async function() {
     try {
-        const res = await fetch(" https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t=Arsenal");
+        const res = await fetch(" https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t=Manchester%20City");
         const data = await res.json();
         if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
         let team = data.teams[0];
@@ -689,40 +689,29 @@ const showTeam = async function() {
             <span>${team.club}</span>
           </h1>
         </figure>
-
         <div class="team__details">
-          <div class="team__info">
-            <svg class="team__info-icon">
-              <use href=${team.logo}></use>
-            </svg>
-           
+         <h2 class="heading--2">History</h2>
             <span class="team__info-text">${team.description}</span>
-          </div>
-
+        </div>
         <div class="team__additionals">
           <h2 class="heading--2">${team.country}</h2>
           <ul class="team__additional-list">
             <li class="team__additional">
-              <div class="team__quantity">${team.stadiumCapacity}</div>
+              <div class="team__quantity">STADIUM CAPACITY: ${team.stadiumCapacity}</div>
               <div class="team__description">
-                <span class="team__unit">${team.stadium}</span>
-           
+                <span class="team__unit"> STADIUM: ${team.stadium}</span>
               </div>
             </li>
             <li class="team__additional">
-              <div class="team__quantity">${team.location}</div>
+              <div class="team__quantity"> LOCATION: ${team.location}</div>
               <div class="team__description">
-                <span class="team__unit">${team.formedYear}</span>
-             
+                <span class="team__unit"> FORMED YEAR: ${team.formedYear}</span>
               </div>
             </li>
         <div class="team__directions">
           <h2 class="heading--2">${team.league}</h2>
-          <p class="team__directions-text">
-            This team was carefully designed and tested by
-            <span class="team__publisher">The Pioneer Woman</span>. Please check out
-            directions at their website.
-          </p>
+          <img src="${team.logo}"class="team__logo">
+          </img>
         </div>`;
         sideContainer.insertAdjacentHTML("afterbegin", markup);
     } catch (err) {
